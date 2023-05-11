@@ -8,7 +8,7 @@ class employee				// каой-то сотрудник
 {
 private:
 	char name[LEN];			// имя сотрудника
-	unsigned long number;	// номер сотрудника
+	unsigned long number;		// номер сотрудника
 public:
 	void getdata() 
 	{
@@ -69,7 +69,7 @@ int main()
 	scientist s1;
 	laborer l1;
 
-	// введем информацию о нескольких сотрудниках
+	// вводим информацию о нескольких сотрудниках
 	cout << endl;
 	cout << "\nOutput information first manager: ";
 	m1.getdata();
